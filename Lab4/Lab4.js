@@ -1,43 +1,60 @@
+/* Variables t elementos Booleanos */
 
-/* objetos y funciones */
+var verdadero = true;
+var falso = false;
 
-var my_object = new Object();
+/* Elementos de Comparación */
 
-var other_object = {};
+/* igualdad (==) */
+
+console.log('Cuando es 1 == 1 es: ' + (1 == 1));
+
+console.log('Cuando es "1" == 1 es: ' + ("1" == 1));
+
+console.log('Cuando es 0 == false es: ' + (0 == false));
+
+console.log('cuando es 1 == true es: ' + (1 == true));
+
+console.log('Cuando es "" == 0' + ("" == 0)); // Convierte "" a 0
+
+console.log('Cuando es 0 == ""' + (0 == "")); // Convierte "" a 0
+
+console.log('CUando es "     " == 0' + (0 == "     "));
+
+var x = {};
+
+var y = x;
+
+console.log("La Comparación entre los objetos X y Y es: " + (x == y));
+
+/* igualdad estricta (===) */
+
+console.log('Cuando es "1" === 1 es: ' + ("1" === 1));
+
+console.log('Cuando es "0" === 0 es: ' + ("0" === 0));
 
 
-my_object = {
-	firstName: 'Maria',
-	lastName: 'Pachon',
-	phone: 1137373
-};
+/* Comparación no estricta de no igual (!=) */
+
+console.log('Cuando es "" != 0' + ("" != 0));
+
+/* Comparación estricta de no igual (!==)*/
 
 
-console.log(my_object.firstName);
+console.log('Cuando es "" !== 0' + ("" !== 0));
 
-console.log(my_object['lastName']);
+/* Flujos logicos */
 
+console.log("----- flujos logicos -----");
 
-//Imprimo informacion del Objeto
-var key;
-for(key in my_object){
-	console.log(my_object[key]);
-}
+// Operador del tipo and `&&`
+console.log( true && true);
+console.log(true && false);
+console.log(false && false);
+console.log(false && false);
 
-
-// Funciones
-
-function test(){
-	console.log('ejecutando una funcion');
-}
-
-test();
-
-// usando funcion anonima
-
-var bye_bye = function(){
-	console.log('Que tengan una feliz semana santa');
-}
-
-bye_bye();
-
+// Operador del tipo or `or`
+console.log( true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
