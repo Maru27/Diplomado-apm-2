@@ -1,0 +1,22 @@
+{
+  "name": "Lab29",
+  "version": "1.0.0",
+  "description": "Ejercicio de diplomado con npm",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "Maru27"
+  },
+  "keywords": [
+    "ejercicio",
+    "probando"
+  ],
+  "author": "Maria Pachon",
+  "license": "free",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
