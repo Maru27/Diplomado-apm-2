@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.app.Lab49"
+        },
+        "org.apache.cordova.media-capture": {
+            "PACKAGE_NAME": "com.app.Lab49"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.app.Lab49"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.app.Lab49"
+        }
+    }
+}
