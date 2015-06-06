@@ -14,7 +14,7 @@
     "express": "^3.18.4",
     "install": "^0.1.7",
     "morgan": "^1.0.1",
-    "sqlite3": "^2.2.7",
+    "sqlite3": "*",
     "static-favicon": "^1.0.2",
     "swig": "^1.4.2"
   }
