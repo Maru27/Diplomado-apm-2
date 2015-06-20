@@ -1,0 +1,22 @@
+{
+  "name": "lab68",
+  "version": "1.0.0",
+  "description": "proyecto sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Maru27"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "María Pachòn",
+  "license": "glp 1.0",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1"
+  }
+}
